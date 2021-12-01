@@ -1,0 +1,12 @@
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "Raleway", sans-serif;
+}
+@import "./partials/variable/index";
+@import "./partials/inheritance/index";
+@import "./partials/sections/index";

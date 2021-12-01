@@ -1,0 +1,25 @@
+#statics{
+    background-color: $dark-color;
+    padding: 50px 0;
+    color: $primary-color;
+    text-align: center;
+    align-items: center;
+    &__items{
+       overflow: hidden; 
+    }
+    i{
+        font-size: 30px;
+        transition: .4s;
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+    h4{
+        font-size: 45px;
+        margin: 20px 0;
+    }
+    h3{
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+}

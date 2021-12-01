@@ -1,0 +1,20 @@
+#footer{
+    justify-content: space-around;
+    align-items: center;
+    background-color: $dark-color;
+    padding: 100px 0;
+    color: $primary-color;
+    .content{
+        text-align: center;
+        span{
+            font-size: 15px;
+        }
+    }
+    .content__icons{
+        i{
+           margin-right: 20px;
+           font-size: 20px;
+           color: $primary-color;
+        }
+    }
+}

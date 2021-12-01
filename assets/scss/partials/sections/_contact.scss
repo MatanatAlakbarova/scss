@@ -1,0 +1,56 @@
+#contact{
+    margin: 100px 0;
+    h2{
+        text-align: center;
+        margin-bottom: 50px;
+    }   
+    .contact-me{
+        background-color: $dark-color;
+    .form{
+        input{
+             font-size: 12px;
+             display: block;
+             width: 100%;
+             padding: 10px 0;
+             background-color: $dark-color;
+             color: $primary-color;
+        }
+    }
+    .text {
+        textarea{
+            font-size: 12px;
+            width: 100%;
+            background-color: $dark-color;
+            color: $primary-color;
+        }
+    }
+    .btn{
+        width: 150px;
+        background-color: $dark-color;
+        transition: .4s;
+        &:hover{
+            background-color: $primary-color;
+            color: $dark-color;
+        }
+    }
+ }
+ .icons{
+    .content{
+        margin-left: 30px;
+    }
+     .icon{
+        ul li{
+            margin-bottom: 40px;
+            i{
+                border: 1px solid $dark-color;
+                padding: 10px;
+                background-color: $dark-color;
+                color: $primary-color;
+            }
+            span {
+                margin-left: 20px;
+            }
+        } 
+     }
+   }
+}

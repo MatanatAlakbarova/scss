@@ -1,0 +1,46 @@
+#blog{
+    background-color: $bg-color;
+    padding: 50px 0;
+    text-align: center;
+  .title h2{
+    margin-bottom: 50px;
+  } 
+  .blog__item{
+      overflow: hidden;
+      position: relative;
+      &:hover .content{
+         opacity: 1;
+         transform: scale(0.9);
+      }
+      .image{
+         overflow: hidden;
+       }
+      img{
+          transition: .7s;
+          filter: grayscale(100%);
+        }
+       &:hover img{
+        transform: scale(1.2);
+       }
+        .content{
+            position: absolute;
+            bottom:0;
+            left: 0%;
+            opacity: 0;
+            background:linear-gradient(rgb(27, 27, 27)) ;
+            color: $primary-color;
+            z-index: 666;
+            padding: 20px;
+            transition: 2s;
+            transform: scale(1);
+            h4{
+                font-size: 20px;
+                font-weight: 100;
+            }     
+            h5{
+                font-size: 15px;
+                font-weight: 100;
+            }      
+        }   
+    } 
+}

@@ -1,0 +1,26 @@
+#services{
+    padding: 150px 0;
+    text-align: center;
+    background-color: $bg-color;
+    .top{
+        margin: 20px 0;
+    }
+    .box{
+        transition: 0.4s;
+        &:hover{
+            background-color: #b8b6b6;
+            border: 1px solid $bg-color;
+        }
+    }
+    i{
+        font-size: 40px;
+        margin:30px 0;
+        
+    }
+    h4{
+        font-size: 15px;
+    }
+    p{
+        color: $text-color;
+    }
+}
